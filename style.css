@@ -6,9 +6,7 @@
     background-color: hsl(257, 40%, 49%);
     background-repeat: no-repeat;
     background-image: url(bg-desktop.svg);
-    /* justify-content: center;
-    align-content: center; */
-
+    font-family: 'Poppins';
   }
 
 .wrapper {
@@ -16,14 +14,10 @@
     grid-template-columns: repeat(auto-fit, minmax(0px, 1fr));
     grid-template-rows: 30% 50% 20%;
     grid-gap: 30px;
-    /* grid-auto-flow: dense; */
     width:80%;
-    /* height: 100vh; */
     position: absolute;
     top: 5%;
     left: 10%;
-    /* overflow: auto; */
-    /* width: 80%; */
 
 }
 
@@ -40,6 +34,7 @@
     padding-bottom: 50px;
     color: white;
     padding-left: 20px;
+    line-height: 1.6;
 }
 
 .buttonsect {
@@ -50,7 +45,6 @@
     background-color: white;
     color: hsl(257, 40%, 49%);
     padding: 10px 50px;
-    /* width:30%; */
     border-radius: 30px;
     border: none;
 }
@@ -70,8 +64,6 @@ button:hover {
     padding-top: 20px;
     align-self: center;
     justify-self: center;
-    /* bottom: 10%;
-    right: 10%; */
 }
 
 
